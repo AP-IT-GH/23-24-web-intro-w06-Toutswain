@@ -46,7 +46,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link" href="#contact">contact</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -66,74 +66,52 @@
     <main class="col-md-9">
       <section id="shopintro" class="row">
         <article class="col-12 mb-3">
-          <h2 class="text-uppercase fs-4 fw-bolder pt-3">shop</h2>
-          <p>Stap binnen in onze online koffie-oase, waar elke boon een verhaal vertelt en elke slok een reis is door smaakvolle aroma's. Ontdek een uitgelezen selectie van zorgvuldig geselecteerde koffiebonen van over de hele wereld, gebrand om de meest verfijnde smaakprofielen te onthullen. Of je nu een doorgewinterde koffiekenner bent of net begint aan je koffieavontuur, wij bieden een scala aan producten en accessoires om je te begeleiden op jouw reis naar de perfecte kop koffie. Dompel jezelf onder in onze wereld van heerlijke geuren, rijke smaken en ongeëvenaarde kwaliteit - welkom bij de ultieme bestemming voor koffieliefhebbers.</p>
+          <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contact</h2>
+          <p>Vul het registratieformulier in. <br> Velden met een * zijn verplicht.</p>
         </article>
         <hr>
 
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Illy</h2>
-          <p class="h6 small">donkere branding</p>
-          <a href="#" rel="noopener">
-            <figure>
-              <img src="./assets/pexels-1-pixabay.jpg" class="img-fluid" alt="foto van Illy koffiebonen"
-                title="Illy koffiebonen">
-              <figcaption class="h6 small mt-2">&copy; Pixabay</figcaption>
-            </figure>
-          </a>
-        </article>
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Lavazza</h2>
-          <p class="h6 small">aromatische koffiebonen</p>
-          <a href="#" rel="noopener">
-            <figure><img src="./assets/pexels-2-igor-haritanovich.jpg" class="img-fluid"
-                alt="foto van Lavazza koffiebonen" title="Lavazza koffiebonen">
-              <figcaption class="h6 small mt-2">&copy; Igor Haritanovich</figcaption>
-            </figure>
-          </a>
-        </article>
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Starbucks</h2>
-          <p class="h6 small">dé koffiemelange</p>
-          <a href="#" rel="noopener">
-            <figure><img src="./assets/pexels-3-adam-lukac.jpg" class="img-fluid" alt="foto van Starbucks koffiebonen"
-                title="Starbucks koffiebonen">
-              <figcaption class="h6 small mt-2">&copy; Adam Lukac</figcaption>
-            </figure>
-          </a>
-        </article>
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 1</h2>
-          <p class="h6 small">grotere capaciteit</p>
-          <a href="#" rel="noopener">
-            <figure><img src="./assets/pexels-4-juan-pablo-serrano-arenas.jpg" class="img-fluid"
-                alt="foto van koffiemolen 1" title="koffiemolen 1">
-              <figcaption class="h6 small mt-2">&copy; Julius Shulman</figcaption>
-            </figure>
-          </a>
-        </article>
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 2</h2>
-          <p class="h6 small">maal ze snel fijn</p>
-          <a href="#" rel="noopener">
-            <figure><img src="./assets/pexels-5-wouter-de-jong.jpg" class="img-fluid" alt="foto van koffiemolen 2"
-                title="koffiemolen 2">
-              <figcaption class="h6 small mt-2">&copy; Juan Arenas</figcaption>
-            </figure>
-          </a>
-        </article>
-        <article class="shop-item col-12 col-sm-6 col-md-4">
-          <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 3</h2>
-          <p class="h6 small">the old fashion way</p>
-          <a href="#" rel="noopener">
-            <figure><img src="./assets/pexels-6-tom-swinnen.jpg" class="img-fluid" alt="foto van koffiemolen 3"
-                title="koffiemolen 3">
-              <figcaption class="h6 small mt-2">&copy; Tom Swinnen</figcaption>
-            </figure>
-          </a>
-        </article>
-      </section>
-      <hr>
+        <form class="row g-3">
+            <fieldset>
+                <legend>Gegevens</legend>
+                <label for="inputvoornaam" class="form-label">Voornaam <span>*</span></label>
+                <input type="text" class="form-control" id="inputvoornaam">
+
+                <label for="inputachternaam" class="form-label">Achternaam</label>
+                <input type="text" class="form-control" id="inputachternaam">
+
+                <label for="inputtel" class="form-label">Mobiel</label>
+                <input type="tel" class="form-control" id="inputtel">
+
+                <label for="inputdate" class="form-label">Geboortedatum</label>
+                <input type="date" class="form-control" id="inputdate">
+            </fieldset>
+
+            <fieldset>
+                <legend>Accountgegevens</legend>
+                <label for="inputmail" class="form-label">E-mail</label>
+                <input type="mail" class="form-control" id="inputmail">
+
+                <label for="inputpassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputpassword">
+
+                <label for="inputbevestigpass" class="form-label">Bevestig Password</label>
+                <input type="password" class="form-control" id="inputbevestigpass">
+            </fieldset>
+
+            <fieldset>
+                <legend>Adressgevens</legend>
+                <label for=""></label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Koffie-achtergrond</legend>
+                <label for=""></label>
+                <input type="text">
+            </fieldset>
+        </form>
+
+
     </main>
 
     <aside class="col-md-3">
